@@ -18,7 +18,7 @@ await rm(out, { recursive: true, force: true });
 await mkdir(out, { recursive: true });
 await copy('assets', 'assets');
 
-await write('index.html', layout({ title: 'Tagfall — Price drops, checked by hand.', description: 'Hand-checked price drops with the tradeoffs that matter.', body: home({ deals, categories }) }));
+await write('index.html', layout({ title: 'Tagfall — Price drops, checked by hand.', description: 'Hand-checked price drops with the tradeoffs that matter.', body: home({ deals, categories, affiliateTag: AFFILIATE_TAG }) }));
 for (const category of categories) {
   const categoryDeals = deals.filter((deal) => deal.category === category.slug && deal.status === 'live').sort((a, b) => a.pickRank - b.pickRank);
   await write(`c/${category.slug}/index.html`, layout({ title: `${category.name} deals — Tagfall`, description: `Hand-checked ${category.name.toLowerCase()} deals and clear buying tradeoffs.`, path: `/c/${category.slug}/`, body: categoryPage({ category, deals: categoryDeals, categories }) }));

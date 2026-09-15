@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Tagfall">
+  <g transform="rotate(-18 32 32)">
+    <path fill="#C8362B" d="M10 15a7 7 0 0 1 7-7h22l15 15-26 26a7 7 0 0 1-10 0L10 41a7 7 0 0 1 0-10z"/>
+    <circle cx="22" cy="20" r="4.5" fill="#F3F5F4"/>
+  </g>
+</svg>

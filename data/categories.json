@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "cleaning",
+    "name": "Cleaning",
+    "icon": "sparkle"
+  },
+  {
+    "slug": "tools",
+    "name": "Tools",
+    "icon": "hammer"
+  },
+  {
+    "slug": "kitchen",
+    "name": "Kitchen",
+    "icon": "pan"
+  },
+  {
+    "slug": "seasonal",
+    "name": "Seasonal",
+    "icon": "leaf"
+  }
+]

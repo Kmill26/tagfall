@@ -1,0 +1,3 @@
+import { card } from './card.mjs';
+import { escapeHtml } from './layout.mjs';
+export const category = ({ category, deals, categories }) => `<section class="shell page-intro"><p class="eyebrow">Tagfall / ${escapeHtml(category.name)}</p><h1>${escapeHtml(category.name)} deals</h1><p>${deals.length} live ${deals.length === 1 ? 'deal' : 'deals'}, checked by hand.</p></section><section class="shell section section--tight"><div class="sort-bar"><label for="sort-deals">Sort</label><select id="sort-deals"><option value="rank">Top picks</option><option value="discount">Biggest discount</option><option value="price">Lowest price</option></select></div><div class="deal-grid" id="deal-grid">${deals.map((deal) => card(deal, categories)).join('')}</div></section>`;

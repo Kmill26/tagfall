@@ -1,0 +1,461 @@
+[
+  {
+    "slug": "chefman-6qt-air-fryer",
+    "title": "Chefman 6-quart compact air fryer",
+    "category": "kitchen",
+    "asin": "B0CNY1YVDD",
+    "price": 69.96,
+    "listPrice": 119.99,
+    "verifiedAt": "2026-09-15T19:00:00-05:00",
+    "pickRank": 1,
+    "featured": false,
+    "summary": "Large 6-qt basket under $70 with a real list cut.",
+    "worthIt": [
+      "Big basket",
+      "42% off list",
+      "Kitchen evergreen"
+    ],
+    "skipIf": [
+      "Brand vs Ninja/Cosori",
+      "Fewer reviews",
+      "Ignore Visa teasers"
+    ],
+    "riskNote": "Brand not top-tier.",
+    "image": null,
+    "status": "live"
+  },
+  {
+    "slug": "craftsman-v20-drill-impact-combo",
+    "title": "CRAFTSMAN V20 MAX drill + impact driver combo",
+    "category": "tools",
+    "asin": "B07K2KN7D7",
+    "price": 99,
+    "listPrice": 169,
+    "verifiedAt": "2026-09-15T19:00:00-05:00",
+    "pickRank": 3,
+    "featured": false,
+    "summary": "Two-tool dual-battery starter under $100 with clear list markdown.",
+    "worthIt": [
+      "2 batteries + bag",
+      "41% off list",
+      "Easy DIY starter"
+    ],
+    "skipIf": [
+      "Not absolute floor (~$79 earlier)",
+      "Brushed/smaller Ah",
+      "Skip if on DeWalt/Milwaukee"
+    ],
+    "riskNote": "Not all-time low.",
+    "image": null,
+    "status": "live"
+  },
+  {
+    "slug": "dewalt-20v-work-light",
+    "title": "DEWALT 20V MAX LED work light (DCL040) — tool only",
+    "category": "tools",
+    "asin": "B0052MILZM",
+    "price": 34.67,
+    "listPrice": 84,
+    "verifiedAt": "2026-09-15T19:00:00-05:00",
+    "pickRank": 2,
+    "featured": false,
+    "summary": "Deep cut on bare DeWalt light — only if you already own 20V packs.",
+    "worthIt": [
+      "59% off list for platform owners",
+      "Garage/attic use",
+      "Accessory roundup"
+    ],
+    "skipIf": [
+      "No battery/charger",
+      "Skip non-DeWalt owners",
+      "Tiny commission alone"
+    ],
+    "riskNote": "Tool-only — disclose.",
+    "image": null,
+    "status": "live"
+  },
+  {
+    "slug": "dreame-h14-wet-dry",
+    "title": "dreame H14 wet/dry vacuum mop",
+    "category": "cleaning",
+    "asin": "B0CWV3C423",
+    "price": 276.65,
+    "listPrice": 349.89,
+    "verifiedAt": "2026-09-15T19:00:00-05:00",
+    "pickRank": 3,
+    "featured": false,
+    "summary": "Hard-floor wet/dry mop+vac with heated brush wash. We quote the live PDP price only — no unverified checkout codes.",
+    "worthIt": [
+      "Clear list cut on PDP",
+      "Amazon sold",
+      "Sticky kitchen/mess tool"
+    ],
+    "skipIf": [
+      "Hard floors only",
+      "Heavier than a stick vac",
+      "Ignore off-PDP coupon rumors unless you confirm"
+    ],
+    "riskNote": "Advertise PDP price only.",
+    "image": null,
+    "status": "live"
+  },
+  {
+    "slug": "greenworks-24v-hammer-drill-kit",
+    "title": "Greenworks 24V brushless hammer drill kit (DDG402)",
+    "category": "tools",
+    "asin": "B09J1WK9FN",
+    "price": 53.82,
+    "listPrice": 129.99,
+    "verifiedAt": "2026-09-15T19:00:00-05:00",
+    "pickRank": 1,
+    "featured": false,
+    "summary": "Full kit (tool+battery+charger) at a deep Amazon list cut.",
+    "worthIt": [
+      "59% off list",
+      "Battery+charger included",
+      "Brushless hammer"
+    ],
+    "skipIf": [
+      "Locks into Greenworks 24V",
+      "Modest 2.0Ah",
+      "Fewer reviews than big brands"
+    ],
+    "riskNote": "Confirm kit ASIN.",
+    "image": null,
+    "status": "live"
+  },
+  {
+    "slug": "halloween-brizled-orange-lights",
+    "title": "Brizled orange Halloween string lights",
+    "category": "seasonal",
+    "asin": "B09131CD8Z",
+    "price": 15.99,
+    "listPrice": null,
+    "verifiedAt": "2026-09-15T19:00:00-05:00",
+    "pickRank": 9,
+    "featured": false,
+    "summary": "Alternate orange lights lane — compare length/modes vs DecoBrite/Toodour.",
+    "worthIt": [
+      "Connectable UL option",
+      "Similar price band",
+      "Good A/B"
+    ],
+    "skipIf": [
+      "Don’t buy all three light posts",
+      "Confirm outdoor rating",
+      "Length matters more than brand"
+    ],
+    "riskNote": "Compare length.",
+    "image": null,
+    "status": "live",
+    "season": "halloween"
+  },
+  {
+    "slug": "halloween-cauldron-rack",
+    "title": "Kendane 3 cauldron candy bowls on rack",
+    "category": "seasonal",
+    "asin": "B0FBWWXQNX",
+    "price": 13.99,
+    "listPrice": 18.99,
+    "verifiedAt": "2026-09-15T19:00:00-05:00",
+    "pickRank": 6,
+    "featured": false,
+    "summary": "Impulse candy-bowl set on LTD; only a few left at verify.",
+    "worthIt": [
+      "Cheap party table set",
+      "26% off typical",
+      "Easy add-on post"
+    ],
+    "skipIf": [
+      "Low stock (4 left at verify)",
+      "Thin review count",
+      "Plastic build"
+    ],
+    "riskNote": "Stock can vanish same day.",
+    "image": null,
+    "status": "live",
+    "season": "halloween"
+  },
+  {
+    "slug": "halloween-comin-purple-spider",
+    "title": "COMIN 9 FT purple spider inflatable",
+    "category": "seasonal",
+    "asin": "B0C2PSY28S",
+    "price": 29.99,
+    "listPrice": 49.99,
+    "verifiedAt": "2026-09-15T19:00:00-05:00",
+    "pickRank": 5,
+    "featured": false,
+    "summary": "Live verify: $29.99 vs $49.99 (40% off), Amazon’s Choice — big statement spider.",
+    "worthIt": [
+      "40% off list",
+      "9-ft yard drama",
+      "Amazon’s Choice"
+    ],
+    "skipIf": [
+      "COMIN 3P",
+      "Weather/motor",
+      "Big footprint"
+    ],
+    "riskNote": "3P COMIN; weather/motor.",
+    "image": null,
+    "status": "live",
+    "season": "halloween"
+  },
+  {
+    "slug": "halloween-decobrite-orange-lights",
+    "title": "DecoBrite orange LED Halloween string lights",
+    "category": "seasonal",
+    "asin": "B099CPYSMN",
+    "price": 15,
+    "listPrice": null,
+    "verifiedAt": "2026-09-15T19:00:00-05:00",
+    "pickRank": 8,
+    "featured": false,
+    "summary": "Classic solid-orange porch lights — keep as alternate to Toodour’s orange/purple mix.",
+    "worthIt": [
+      "Familiar solid orange",
+      "Low price",
+      "Easy attach item"
+    ],
+    "skipIf": [
+      "Prefer Toodour if you want longer run/% off",
+      "Confirm outdoor rating",
+      "Don’t buy duplicates"
+    ],
+    "riskNote": "Confirm UL/outdoor.",
+    "image": null,
+    "status": "live",
+    "season": "halloween"
+  },
+  {
+    "slug": "halloween-goosh-ghost-pumpkin",
+    "title": "GOOSH 5 FT ghost + pumpkin inflatable",
+    "category": "seasonal",
+    "asin": "B08BC2BQWJ",
+    "price": 22.99,
+    "listPrice": 39.99,
+    "verifiedAt": "2026-09-15T19:00:00-05:00",
+    "pickRank": 4,
+    "featured": false,
+    "summary": "Live verify: $22.99 vs $39.99 (43% off), Amazon’s Choice with strong review depth.",
+    "worthIt": [
+      "43% off list",
+      "Amazon’s Choice",
+      "Ghost+pumpkin set"
+    ],
+    "skipIf": [
+      "3P / motor risk",
+      "Needs stakes + outlet",
+      "Price can rebound"
+    ],
+    "riskNote": "3P seller; motor.",
+    "image": null,
+    "status": "live",
+    "season": "halloween"
+  },
+  {
+    "slug": "halloween-goosh-pumpkin-combo",
+    "title": "GOOSH 6 FT pumpkin combo inflatable",
+    "category": "seasonal",
+    "asin": "B08C7M35XQ",
+    "price": 27.99,
+    "listPrice": 53.99,
+    "verifiedAt": "2026-09-15T19:00:00-05:00",
+    "pickRank": 2,
+    "featured": false,
+    "summary": "Live verify: $27.99 vs $53.99 (48% off), Amazon’s Choice — bigger pumpkin set.",
+    "worthIt": [
+      "48% off list",
+      "Amazon’s Choice",
+      "Larger footprint"
+    ],
+    "skipIf": [
+      "3P / motor",
+      "Needs more lawn",
+      "Skip if you only want a small ghost"
+    ],
+    "riskNote": "3P seller; motor.",
+    "image": null,
+    "status": "live",
+    "season": "halloween"
+  },
+  {
+    "slug": "halloween-goosh-wizard-ghost",
+    "title": "GOOSH 5 FT wizard ghost inflatable (handheld light)",
+    "category": "seasonal",
+    "asin": "B07WXGLDGV",
+    "price": 17.99,
+    "listPrice": 38.99,
+    "verifiedAt": "2026-09-15T19:00:00-05:00",
+    "pickRank": 1,
+    "featured": false,
+    "summary": "Live verify: $17.99 vs $38.99 (54% off), Amazon’s Choice. Best cheap yard-ghost entry in this batch.",
+    "worthIt": [
+      "54% off list",
+      "Amazon’s Choice",
+      "Prime"
+    ],
+    "skipIf": [
+      "3P GOOSH / pump risk",
+      "Outdoor weather",
+      "Measure outlet access"
+    ],
+    "riskNote": "3P seller; pump durability.",
+    "image": null,
+    "status": "live",
+    "season": "halloween"
+  },
+  {
+    "slug": "halloween-hhf-grim-reaper",
+    "title": "HHF life-size grim reaper with chain",
+    "category": "seasonal",
+    "asin": "B07X6WTKLT",
+    "price": 39.99,
+    "listPrice": 49.99,
+    "verifiedAt": "2026-09-15T19:00:00-05:00",
+    "pickRank": 7,
+    "featured": false,
+    "summary": "Amazon buybox animatronic at $39.99 vs $49.99 — better trust than random 3P props.",
+    "worthIt": [
+      "Sold by Amazon",
+      "Life-size yard prop",
+      "Clear list cut"
+    ],
+    "skipIf": [
+      "Only 20% off",
+      "Animatronic reliability varies",
+      "Covered outdoor use"
+    ],
+    "riskNote": "Reviews mid 4.1★ — check recent.",
+    "image": null,
+    "status": "live",
+    "season": "halloween"
+  },
+  {
+    "slug": "halloween-toodour-lights",
+    "title": "Toodour 131ft orange & purple Halloween lights",
+    "category": "seasonal",
+    "asin": "B08YMZ1VXM",
+    "price": 13.99,
+    "listPrice": 24.99,
+    "verifiedAt": "2026-09-15T19:00:00-05:00",
+    "pickRank": 3,
+    "featured": false,
+    "summary": "Strongest %-off light deal in the live Halloween LTD pass — long run for porches/trees.",
+    "worthIt": [
+      "44% off list",
+      "Long 131ft run",
+      "Solid ratings"
+    ],
+    "skipIf": [
+      "3P Toodour Direct",
+      "Confirm outdoor rating",
+      "Compare color mix vs solid orange"
+    ],
+    "riskNote": "3P seller.",
+    "image": null,
+    "status": "live",
+    "season": "halloween"
+  },
+  {
+    "slug": "levoit-core-200s-p",
+    "title": "Levoit Core 200S-P smart air purifier (White)",
+    "category": "cleaning",
+    "asin": "B08FJ678YK",
+    "price": 69.99,
+    "listPrice": 89.99,
+    "verifiedAt": "2026-09-15T19:00:00-05:00",
+    "pickRank": 4,
+    "featured": false,
+    "summary": "Bestselling AHAM VERIFIDE bedroom/dorm purifier under $70 — easiest evergreen cleaning clicker in the wave.",
+    "worthIt": [
+      "Huge review base",
+      "Under $70 on sale",
+      "App/Alexa smart control"
+    ],
+    "skipIf": [
+      "Small-room class, not whole-house",
+      "Filter replacements are ongoing cost",
+      "Confirm White / Core 200S-P variant"
+    ],
+    "riskNote": "Room-size expectations.",
+    "image": null,
+    "status": "live"
+  },
+  {
+    "slug": "levoit-lvac-200-stick",
+    "title": "Levoit LVAC-200 cordless stick vacuum",
+    "category": "cleaning",
+    "asin": "B0CB6B2JWG",
+    "price": 139.95,
+    "listPrice": 199.99,
+    "verifiedAt": "2026-09-15T19:00:00-05:00",
+    "pickRank": 2,
+    "featured": false,
+    "summary": "Amazon-sold stick vac under $140 with anti-tangle brush and strong review velocity — solid everyday/quick-clean pick.",
+    "worthIt": [
+      "~30% off list",
+      "Sold by Amazon",
+      "Pet anti-tangle + solid ratings"
+    ],
+    "skipIf": [
+      "Low stock at verify",
+      "Runtime drops on max mode",
+      "Dry messes only"
+    ],
+    "riskNote": "Stock/price can move same day.",
+    "image": null,
+    "status": "live"
+  },
+  {
+    "slug": "roborock-q10-s5-plus",
+    "title": "Roborock Q10 S5+ self-empty robot vac & mop",
+    "category": "cleaning",
+    "asin": "B0DWXF15GF",
+    "price": 279.98,
+    "listPrice": 549.99,
+    "verifiedAt": "2026-09-15T19:00:00-05:00",
+    "pickRank": 1,
+    "featured": true,
+    "summary": "Midrange vac+mop with self-empty dock at about half list. Strong set-and-forget floor clean if the cut holds.",
+    "worthIt": [
+      "~49% off list at verify",
+      "Self-empty “+” dock",
+      "Vac+mop in one"
+    ],
+    "skipIf": [
+      "Sold by Roborock (not Amazon)",
+      "Low stock can flip price fast",
+      "2.4 GHz Wi‑Fi only"
+    ],
+    "riskNote": "Third-party brand storefront; recheck stock.",
+    "image": null,
+    "status": "live"
+  },
+  {
+    "slug": "yeedi-s14-plus-robot",
+    "title": "Yeedi S14 Plus robot vacuum & mop",
+    "category": "cleaning",
+    "asin": "B0DRNYXDDV",
+    "price": 399.99,
+    "listPrice": null,
+    "verifiedAt": "2026-09-15T19:00:00-05:00",
+    "pickRank": 5,
+    "featured": false,
+    "summary": "Live $399.99 with no Amazon strikethrough at verify — trackers cite typical ~$700. Disclose tracker context.",
+    "worthIt": [
+      "All-in-one station lane",
+      "Higher AOV",
+      "Tracker suggests deep cut"
+    ],
+    "skipIf": [
+      "No Amazon list % to claim",
+      "Large dock",
+      "Consumables"
+    ],
+    "riskNote": "Frame vs tracker typical.",
+    "image": null,
+    "status": "live"
+  }
+]

@@ -1,4 +1,4 @@
-export const SITE_URL = (process.env.SITE_URL || 'https://tagfall.vercel.app').replace(/\/$/, '');
+export const SITE_URL = 'https://tagfall.vercel.app';
 
 export const escapeHtml = (value = '') => String(value).replace(/[&<>"']/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]);
 export const money = (value) => new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(value);

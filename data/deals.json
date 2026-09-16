@@ -632,5 +632,81 @@
     "riskNote": "Heavier spend than shallow organizers; confirm 2.0 stack compatibility before buying.",
     "image": "https://m.media-amazon.com/images/I/816-9F8RQyL._AC_SL1500_.jpg",
     "status": "live"
+  },
+  {
+    "slug": "fanttik-g9-handy-spin-scrubber",
+    "title": "Fanttik G9 Handy Spin Scrubber",
+    "category": "cleaning",
+    "asin": "B0DS5Z8HZD",
+    "price": 49.99,
+    "listPrice": 69.99,
+    "verifiedAt": "2026-09-15T20:55:00-05:00",
+    "pickRank": 6,
+    "featured": false,
+    "summary": "MagnaStorm spin scrubber with 5 heads at a clear 29% Amazon list cut — bathroom/grout helper under $50.",
+    "worthIt": [
+      "29% off list",
+      "5 heads + Prime",
+      "Handy cordless scrub"
+    ],
+    "skipIf": [
+      "Want a long-pole scrubber",
+      "Prefer pro torque brand",
+      "Thin review base"
+    ],
+    "riskNote": "4.3★ / ~87 reviews — still early.",
+    "image": "https://m.media-amazon.com/images/I/61r-lB06LnL._AC_SL1500_.jpg",
+    "status": "live"
+  },
+  {
+    "slug": "fanttik-flip-g10-nanohomecare",
+    "title": "Fanttik Flip G10 Nano HomeCare scrubber",
+    "category": "cleaning",
+    "asin": "B0G6BSWZP8",
+    "price": 39.99,
+    "listPrice": 55.99,
+    "verifiedAt": "2026-09-15T20:55:00-05:00",
+    "pickRank": 7,
+    "featured": false,
+    "summary": "Compact Flip G10 with 15 heads at 29% off list — good for grout and tight corners under $40.",
+    "worthIt": [
+      "29% off list",
+      "15 heads / grout",
+      "Under $40"
+    ],
+    "skipIf": [
+      "Need pro torque",
+      "Hate mixed reviews",
+      "Want one heavy-duty brush only"
+    ],
+    "riskNote": "3.9★ — some torque complaints.",
+    "image": "https://m.media-amazon.com/images/I/61ae-ICbRQL._AC_SL1500_.jpg",
+    "status": "live"
+  },
+  {
+    "slug": "joyin-5ft-giant-spider-outdoor",
+    "title": "JOYIN 5 FT giant outdoor Halloween spider",
+    "category": "seasonal",
+    "asin": "B07577NKN6",
+    "price": 13.99,
+    "listPrice": 29.99,
+    "verifiedAt": "2026-09-15T20:55:00-05:00",
+    "pickRank": 10,
+    "featured": false,
+    "summary": "Deep seasonal strike — 5-ft outdoor spider at 53% off list for cheap yard scare.",
+    "worthIt": [
+      "53% off list",
+      "Cheap yard drama",
+      "Seasonal impulse"
+    ],
+    "skipIf": [
+      "Hate spiders / HOA rules",
+      "Want premium brand decor",
+      "Need giant 10ft+"
+    ],
+    "riskNote": "JOYIN 3P — durability varies.",
+    "image": null,
+    "status": "live",
+    "season": "halloween"
   }
 ]

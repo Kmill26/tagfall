@@ -10,6 +10,10 @@ export const icon = (name) => ({
   leaf: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 3C10 3 4 7 4 14c0 4 3 7 7 7 7 0 10-8 9-18Zm-8 15c-1.5-3.5-3.5-5.5-6-6 3 0 5.5 1.3 7.5 4L18 8l-6 10Z"/></svg>',
 }[name] || '');
 
+export const productImage = (deal, className = '') => deal?.image
+  ? `<img src="${escapeHtml(deal.image)}" alt="" width="560" height="560" loading="lazy"${className ? ` class="${escapeHtml(className)}"` : ''}>`
+  : placeholder(deal?.category || 'cleaning', deal?.title || '');
+
 export const placeholder = (category, label = '') => `<div class="product-placeholder product-placeholder--${escapeHtml(category)}" aria-label="${escapeHtml(label)} product image placeholder" role="img">${icon(category === 'seasonal' ? 'leaf' : category === 'cleaning' ? 'sparkle' : category === 'tools' ? 'hammer' : 'pan')}</div>`;
 
 export const layout = ({ title, description, path = '/', body, jsonLd = '' }) => {

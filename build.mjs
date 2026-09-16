@@ -16,6 +16,7 @@ const deals = await readJson('data/deals.json');
 const categories = await readJson('data/categories.json');
 await rm(out, { recursive: true, force: true });
 await mkdir(out, { recursive: true });
+await write('googlefcfa6886ed269f4e.html', 'google-site-verification: 5JwV867bjmqxM_t033AC-E7LLKbz3hAbIyQEWAaS2zI');
 await copy('assets', 'assets');
 
 const liveDeals = deals.filter((deal) => deal.status === 'live');

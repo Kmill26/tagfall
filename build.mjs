@@ -1,8 +1,8 @@
 import { cp, mkdir, readFile, rm, writeFile } from 'node:fs/promises';
 import path from 'node:path';
-import { layout, SITE_URL } from './templates/layout.mjs';
+import { discount, firstLiveImage, layout, SITE_URL } from './templates/layout.mjs';
 import { home } from './templates/home.mjs';
-import { category as categoryPage } from './templates/category.mjs';
+import { category as categoryPage, categoryJsonLd } from './templates/category.mjs';
 import { deal as dealPage } from './templates/deal.mjs';
 
 export const AFFILIATE_TAG = 'millerdealdes-20';
@@ -18,22 +18,23 @@ await rm(out, { recursive: true, force: true });
 await mkdir(out, { recursive: true });
 await copy('assets', 'assets');
 
-await write('index.html', layout({ title: 'Tagfall — Price drops, checked by hand.', description: 'Hand-checked price drops with the tradeoffs that matter.', body: home({ deals, categories, affiliateTag: AFFILIATE_TAG }) }));
+const liveDeals = deals.filter((deal) => deal.status === 'live');
+const featured = liveDeals.filter((deal) => deal.featured).sort((a, b) => (discount(b) || 0) - (discount(a) || 0))[0];
+await write('index.html', layout({ title: 'Tagfall — Price drops, checked by hand.', description: 'Hand-checked price drops with the tradeoffs that matter.', body: home({ deals, categories, affiliateTag: AFFILIATE_TAG }), image: firstLiveImage(featured, liveDeals) }));
 for (const category of categories) {
-  const categoryDeals = deals.filter((deal) => deal.category === category.slug && deal.status === 'live').sort((a, b) => a.pickRank - b.pickRank);
-  await write(`c/${category.slug}/index.html`, layout({ title: category.title || `${category.name} deals — Tagfall`, description: category.description || `Hand-checked ${category.name.toLowerCase()} deals and clear buying tradeoffs.`, path: `/c/${category.slug}/`, body: categoryPage({ category, deals: categoryDeals, categories }) }));
+  const categoryDeals = liveDeals.filter((deal) => deal.category === category.slug).sort((a, b) => a.pickRank - b.pickRank);
+  await write(`c/${category.slug}/index.html`, layout({ title: category.title || `${category.name} deals — Tagfall`, description: category.description || `Hand-checked ${category.name.toLowerCase()} deals and clear buying tradeoffs.`, path: `/c/${category.slug}/`, body: categoryPage({ category, deals: categoryDeals, categories }), jsonLd: categoryJsonLd(category, categoryDeals), image: firstLiveImage(categoryDeals) }));
 }
 for (const deal of deals) {
   const category = categories.find((item) => item.slug === deal.category);
-  const related = deals.filter((item) => item.category === deal.category && item.slug !== deal.slug && item.status === 'live').sort((a, b) => a.pickRank - b.pickRank).slice(0, 4);
+  const related = liveDeals.filter((item) => item.category === deal.category && item.slug !== deal.slug).sort((a, b) => a.pickRank - b.pickRank).slice(0, 4);
   const page = dealPage({ deal, category, related, categories, affiliateTag: AFFILIATE_TAG });
-  await write(`deals/${deal.slug}/index.html`, layout({ title: `${deal.title} — Tagfall`, description: deal.summary, path: `/deals/${deal.slug}/`, body: page.body, jsonLd: page.jsonLd, noindex: deal.status !== 'live' }));
+  await write(`deals/${deal.slug}/index.html`, layout({ title: `${deal.title} — Tagfall`, description: deal.summary, path: `/deals/${deal.slug}/`, body: page.body, jsonLd: page.jsonLd, noindex: deal.status !== 'live', image: deal.image || '' }));
 }
 const about = `<section class="shell page-intro prose"><p class="eyebrow">About Tagfall</p><h1>Price drops, checked by hand.</h1><p>Tagfall is operated by Kenny in the Houston metro. It exists to publish clear, all-in deal writeups for home and everyday products — what is worth buying, what to skip, and why.</p><p>We research prices across retail and marketplace options and explain tradeoffs in plain English. When we link to a retailer, we may earn a commission. That never changes our recommendation process.</p></section>`;
 const disclosure = `<section class="shell page-intro prose"><p class="eyebrow">Disclosure</p><h1>Affiliate disclosure</h1><p><strong>As an Amazon Associate I earn from qualifying purchases.</strong></p><p>Tagfall is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com and affiliated sites.</p><p>We may also participate in other affiliate or partner programs. If you click a link on this site and buy something, we may earn a commission at no extra cost to you.</p><p>We aim for honest recommendations. Commissions do not determine whether we recommend a product; price, usefulness, and tradeoffs do.</p><p>Amazon and the Amazon logo are trademarks of Amazon.com, Inc. or its affiliates.</p></section>`;
 await write('about/index.html', layout({ title: 'About — Tagfall', description: 'Why Tagfall checks price drops and tradeoffs by hand.', path: '/about/', body: about }));
 await write('disclosure/index.html', layout({ title: 'Affiliate disclosure — Tagfall', description: 'Tagfall affiliate disclosure.', path: '/disclosure/', body: disclosure }));
-const liveDeals = deals.filter((deal) => deal.status === 'live');
 const lastmod = (value) => {
   const date = new Date(value);
   return Number.isNaN(date.getTime()) ? null : date.toISOString().slice(0, 10);

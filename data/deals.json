@@ -21,7 +21,7 @@
       "Ignore Visa teasers"
     ],
     "riskNote": "Brand not top-tier.",
-    "image": null,
+    "image": "https://m.media-amazon.com/images/I/71WCBoDBHsL._AC_SL1500_.jpg",
     "status": "live"
   },
   {
@@ -46,12 +46,12 @@
       "Skip if on DeWalt/Milwaukee"
     ],
     "riskNote": "Not all-time low.",
-    "image": null,
+    "image": "https://m.media-amazon.com/images/I/71cTPk6tJML._AC_SL1500_.jpg",
     "status": "live"
   },
   {
     "slug": "dewalt-20v-work-light",
-    "title": "DEWALT 20V MAX LED work light (DCL040) — tool only",
+    "title": "DEWALT 20V MAX LED work light (DCL040) \u2014 tool only",
     "category": "tools",
     "asin": "B0052MILZM",
     "price": 34.67,
@@ -59,7 +59,7 @@
     "verifiedAt": "2026-09-15T19:00:00-05:00",
     "pickRank": 2,
     "featured": false,
-    "summary": "Deep cut on bare DeWalt light — only if you already own 20V packs.",
+    "summary": "Deep cut on bare DeWalt light \u2014 only if you already own 20V packs.",
     "worthIt": [
       "59% off list for platform owners",
       "Garage/attic use",
@@ -70,8 +70,8 @@
       "Skip non-DeWalt owners",
       "Tiny commission alone"
     ],
-    "riskNote": "Tool-only — disclose.",
-    "image": null,
+    "riskNote": "Tool-only \u2014 disclose.",
+    "image": "https://m.media-amazon.com/images/I/51RLPCcaqML._AC_SL1000_.jpg",
     "status": "live"
   },
   {
@@ -84,7 +84,7 @@
     "verifiedAt": "2026-09-15T19:00:00-05:00",
     "pickRank": 3,
     "featured": false,
-    "summary": "Hard-floor wet/dry mop+vac with heated brush wash. We quote the live PDP price only — no unverified checkout codes.",
+    "summary": "Hard-floor wet/dry mop+vac with heated brush wash. We quote the live PDP price only \u2014 no unverified checkout codes.",
     "worthIt": [
       "Clear list cut on PDP",
       "Amazon sold",
@@ -96,7 +96,7 @@
       "Ignore off-PDP coupon rumors unless you confirm"
     ],
     "riskNote": "Advertise PDP price only.",
-    "image": null,
+    "image": "https://m.media-amazon.com/images/I/61v-UPCYmVL._AC_SL1500_.jpg",
     "status": "live"
   },
   {
@@ -121,7 +121,7 @@
       "Fewer reviews than big brands"
     ],
     "riskNote": "Confirm kit ASIN.",
-    "image": null,
+    "image": "https://m.media-amazon.com/images/I/81g+n3S9RDL._AC_SL1500_.jpg",
     "status": "live"
   },
   {
@@ -134,19 +134,19 @@
     "verifiedAt": "2026-09-15T19:00:00-05:00",
     "pickRank": 9,
     "featured": false,
-    "summary": "Alternate orange lights lane — compare length/modes vs DecoBrite/Toodour.",
+    "summary": "Alternate orange lights lane \u2014 compare length/modes vs DecoBrite/Toodour.",
     "worthIt": [
       "Connectable UL option",
       "Similar price band",
       "Good A/B"
     ],
     "skipIf": [
-      "Don’t buy all three light posts",
+      "Don\u2019t buy all three light posts",
       "Confirm outdoor rating",
       "Length matters more than brand"
     ],
     "riskNote": "Compare length.",
-    "image": null,
+    "image": "https://m.media-amazon.com/images/I/81+u-pis3lL._AC_SL1500_.jpg",
     "status": "live",
     "season": "halloween"
   },
@@ -172,7 +172,7 @@
       "Plastic build"
     ],
     "riskNote": "Stock can vanish same day.",
-    "image": null,
+    "image": "https://m.media-amazon.com/images/I/61asuZiHlLL._AC_SL1500_.jpg",
     "status": "live",
     "season": "halloween"
   },
@@ -186,11 +186,11 @@
     "verifiedAt": "2026-09-15T19:00:00-05:00",
     "pickRank": 5,
     "featured": false,
-    "summary": "Live verify: $29.99 vs $49.99 (40% off), Amazon’s Choice — big statement spider.",
+    "summary": "Live verify: $29.99 vs $49.99 (40% off), Amazon\u2019s Choice \u2014 big statement spider.",
     "worthIt": [
       "40% off list",
       "9-ft yard drama",
-      "Amazon’s Choice"
+      "Amazon\u2019s Choice"
     ],
     "skipIf": [
       "COMIN 3P",
@@ -198,7 +198,7 @@
       "Big footprint"
     ],
     "riskNote": "3P COMIN; weather/motor.",
-    "image": null,
+    "image": "https://m.media-amazon.com/images/I/713u8oaVSTL._AC_SL1100_.jpg",
     "status": "live",
     "season": "halloween"
   },
@@ -212,7 +212,7 @@
     "verifiedAt": "2026-09-15T19:00:00-05:00",
     "pickRank": 8,
     "featured": false,
-    "summary": "Classic solid-orange porch lights — keep as alternate to Toodour’s orange/purple mix.",
+    "summary": "Classic solid-orange porch lights \u2014 keep as alternate to Toodour\u2019s orange/purple mix.",
     "worthIt": [
       "Familiar solid orange",
       "Low price",
@@ -221,10 +221,10 @@
     "skipIf": [
       "Prefer Toodour if you want longer run/% off",
       "Confirm outdoor rating",
-      "Don’t buy duplicates"
+      "Don\u2019t buy duplicates"
     ],
     "riskNote": "Confirm UL/outdoor.",
-    "image": null,
+    "image": "https://m.media-amazon.com/images/I/61Y0-Ca5LNS._AC_SL1500_.jpg",
     "status": "live",
     "season": "halloween"
   },
@@ -238,10 +238,10 @@
     "verifiedAt": "2026-09-15T19:00:00-05:00",
     "pickRank": 4,
     "featured": false,
-    "summary": "Live verify: $22.99 vs $39.99 (43% off), Amazon’s Choice with strong review depth.",
+    "summary": "Live verify: $22.99 vs $39.99 (43% off), Amazon\u2019s Choice with strong review depth.",
     "worthIt": [
       "43% off list",
-      "Amazon’s Choice",
+      "Amazon\u2019s Choice",
       "Ghost+pumpkin set"
     ],
     "skipIf": [
@@ -250,7 +250,7 @@
       "Price can rebound"
     ],
     "riskNote": "3P seller; motor.",
-    "image": null,
+    "image": "https://m.media-amazon.com/images/I/71jshexFYYL._AC_SL1100_.jpg",
     "status": "live",
     "season": "halloween"
   },
@@ -264,10 +264,10 @@
     "verifiedAt": "2026-09-15T19:00:00-05:00",
     "pickRank": 2,
     "featured": false,
-    "summary": "Live verify: $27.99 vs $53.99 (48% off), Amazon’s Choice — bigger pumpkin set.",
+    "summary": "Live verify: $27.99 vs $53.99 (48% off), Amazon\u2019s Choice \u2014 bigger pumpkin set.",
     "worthIt": [
       "48% off list",
-      "Amazon’s Choice",
+      "Amazon\u2019s Choice",
       "Larger footprint"
     ],
     "skipIf": [
@@ -276,7 +276,7 @@
       "Skip if you only want a small ghost"
     ],
     "riskNote": "3P seller; motor.",
-    "image": null,
+    "image": "https://m.media-amazon.com/images/I/71GduwlojnL._AC_SL1100_.jpg",
     "status": "live",
     "season": "halloween"
   },
@@ -290,10 +290,10 @@
     "verifiedAt": "2026-09-15T19:00:00-05:00",
     "pickRank": 1,
     "featured": false,
-    "summary": "Live verify: $17.99 vs $38.99 (54% off), Amazon’s Choice. Best cheap yard-ghost entry in this batch.",
+    "summary": "Live verify: $17.99 vs $38.99 (54% off), Amazon\u2019s Choice. Best cheap yard-ghost entry in this batch.",
     "worthIt": [
       "54% off list",
-      "Amazon’s Choice",
+      "Amazon\u2019s Choice",
       "Prime"
     ],
     "skipIf": [
@@ -302,7 +302,7 @@
       "Measure outlet access"
     ],
     "riskNote": "3P seller; pump durability.",
-    "image": null,
+    "image": "https://m.media-amazon.com/images/I/71rcsIkGcTL._AC_SL1100_.jpg",
     "status": "live",
     "season": "halloween"
   },
@@ -316,7 +316,7 @@
     "verifiedAt": "2026-09-15T19:00:00-05:00",
     "pickRank": 7,
     "featured": false,
-    "summary": "Amazon buybox animatronic at $39.99 vs $49.99 — better trust than random 3P props.",
+    "summary": "Amazon buybox animatronic at $39.99 vs $49.99 \u2014 better trust than random 3P props.",
     "worthIt": [
       "Sold by Amazon",
       "Life-size yard prop",
@@ -327,8 +327,8 @@
       "Animatronic reliability varies",
       "Covered outdoor use"
     ],
-    "riskNote": "Reviews mid 4.1★ — check recent.",
-    "image": null,
+    "riskNote": "Reviews mid 4.1\u2605 \u2014 check recent.",
+    "image": "https://m.media-amazon.com/images/I/51-3K6uDBtL._AC_SL1500_.jpg",
     "status": "live",
     "season": "halloween"
   },
@@ -342,7 +342,7 @@
     "verifiedAt": "2026-09-15T19:00:00-05:00",
     "pickRank": 3,
     "featured": false,
-    "summary": "Strongest %-off light deal in the live Halloween LTD pass — long run for porches/trees.",
+    "summary": "Strongest %-off light deal in the live Halloween LTD pass \u2014 long run for porches/trees.",
     "worthIt": [
       "44% off list",
       "Long 131ft run",
@@ -354,7 +354,7 @@
       "Compare color mix vs solid orange"
     ],
     "riskNote": "3P seller.",
-    "image": null,
+    "image": "https://m.media-amazon.com/images/I/81TYTHckDIL._AC_SL1500_.jpg",
     "status": "live",
     "season": "halloween"
   },
@@ -368,7 +368,7 @@
     "verifiedAt": "2026-09-15T19:00:00-05:00",
     "pickRank": 4,
     "featured": false,
-    "summary": "Bestselling AHAM VERIFIDE bedroom/dorm purifier under $70 — easiest evergreen cleaning clicker in the wave.",
+    "summary": "Bestselling AHAM VERIFIDE bedroom/dorm purifier under $70 \u2014 easiest evergreen cleaning clicker in the wave.",
     "worthIt": [
       "Huge review base",
       "Under $70 on sale",
@@ -380,7 +380,7 @@
       "Confirm White / Core 200S-P variant"
     ],
     "riskNote": "Room-size expectations.",
-    "image": null,
+    "image": "https://m.media-amazon.com/images/I/61YVFzh9kLL._AC_SL1500_.jpg",
     "status": "live"
   },
   {
@@ -393,7 +393,7 @@
     "verifiedAt": "2026-09-15T19:00:00-05:00",
     "pickRank": 2,
     "featured": false,
-    "summary": "Amazon-sold stick vac under $140 with anti-tangle brush and strong review velocity — solid everyday/quick-clean pick.",
+    "summary": "Amazon-sold stick vac under $140 with anti-tangle brush and strong review velocity \u2014 solid everyday/quick-clean pick.",
     "worthIt": [
       "~30% off list",
       "Sold by Amazon",
@@ -405,7 +405,7 @@
       "Dry messes only"
     ],
     "riskNote": "Stock/price can move same day.",
-    "image": null,
+    "image": "https://m.media-amazon.com/images/I/71iS-sWLrNL._AC_SL1500_.jpg",
     "status": "live"
   },
   {
@@ -421,16 +421,16 @@
     "summary": "Midrange vac+mop with self-empty dock at about half list. Strong set-and-forget floor clean if the cut holds.",
     "worthIt": [
       "~49% off list at verify",
-      "Self-empty “+” dock",
+      "Self-empty \u201c+\u201d dock",
       "Vac+mop in one"
     ],
     "skipIf": [
       "Sold by Roborock (not Amazon)",
       "Low stock can flip price fast",
-      "2.4 GHz Wi‑Fi only"
+      "2.4 GHz Wi\u2011Fi only"
     ],
     "riskNote": "Third-party brand storefront; recheck stock.",
-    "image": null,
+    "image": "https://m.media-amazon.com/images/I/612vfUAJhfL._AC_SL1500_.jpg",
     "status": "live"
   },
   {
@@ -443,7 +443,7 @@
     "verifiedAt": "2026-09-15T19:00:00-05:00",
     "pickRank": 5,
     "featured": false,
-    "summary": "Live $399.99 with no Amazon strikethrough at verify — trackers cite typical ~$700. Disclose tracker context.",
+    "summary": "Live $399.99 with no Amazon strikethrough at verify \u2014 trackers cite typical ~$700. Disclose tracker context.",
     "worthIt": [
       "All-in-one station lane",
       "Higher AOV",
@@ -456,6 +456,6 @@
     ],
     "riskNote": "Frame vs tracker typical.",
     "image": null,
-    "status": "live"
+    "status": "ended"
   }
 ]

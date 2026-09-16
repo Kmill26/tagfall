@@ -2,21 +2,37 @@
   {
     "slug": "cleaning",
     "name": "Cleaning",
-    "icon": "sparkle"
+    "icon": "sparkle",
+    "title": "Vacuum & air purifier deals — Tagfall",
+    "description": "Hand-checked vacuum, robot vac, and air purifier price drops — what is worth buying and what to skip.",
+    "h1": "Vacuum and air purifier deals",
+    "intro": "Stick vacs, robot vacs, wet/dry mops, and bedroom purifiers with live prices and the skip-if notes that matter."
   },
   {
     "slug": "tools",
     "name": "Tools",
-    "icon": "hammer"
+    "icon": "hammer",
+    "title": "Cordless tool deals — Tagfall",
+    "description": "Hand-checked cordless drill, impact, and DeWalt-style kit price drops, including whether the battery is in the box.",
+    "h1": "Cordless tool deals",
+    "intro": "DeWalt-style 20V kits, drills, and shop accessories — checked by hand so you know if the battery is included."
   },
   {
     "slug": "kitchen",
     "name": "Kitchen",
-    "icon": "pan"
+    "icon": "pan",
+    "title": "Air fryer & blender deals — Tagfall",
+    "description": "Hand-checked air fryer and blender price drops with capacity, noise, and skip-if tradeoffs.",
+    "h1": "Air fryer and blender deals",
+    "intro": "Basket air fryers, countertop ovens, and blenders with live list cuts and the tradeoffs that matter."
   },
   {
     "slug": "seasonal",
     "name": "Seasonal",
-    "icon": "leaf"
+    "icon": "leaf",
+    "title": "Halloween deals: inflatables, lights & yard décor — Tagfall",
+    "description": "Hand-checked Halloween inflatable, string light, and yard décor deals — blow-up ghosts, porch lights, and outdoor décor with live prices.",
+    "h1": "Halloween deals: inflatables, lights & yard décor",
+    "intro": "This season’s Halloween yard inflatables, orange porch lights, and outdoor décor — checked by hand before you decorate."
   }
 ]

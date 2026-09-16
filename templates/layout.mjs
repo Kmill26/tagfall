@@ -11,7 +11,7 @@ export const icon = (name) => ({
 }[name] || '');
 
 export const productImage = (deal, className = '') => deal?.image
-  ? `<img src="${escapeHtml(deal.image)}" alt="" width="560" height="560" loading="lazy"${className ? ` class="${escapeHtml(className)}"` : ''}>`
+  ? `<img src="${escapeHtml(deal.image)}" alt="${escapeHtml(deal.title || '')}" width="560" height="560" loading="lazy" class="product-photo${className ? ` ${escapeHtml(className)}` : ''}">`
   : placeholder(deal?.category || 'cleaning', deal?.title || '');
 
 export const placeholder = (category, label = '') => `<div class="product-placeholder product-placeholder--${escapeHtml(category)}" aria-label="${escapeHtml(label)} product image placeholder" role="img">${icon(category === 'seasonal' ? 'leaf' : category === 'cleaning' ? 'sparkle' : category === 'tools' ? 'hammer' : 'pan')}</div>`;

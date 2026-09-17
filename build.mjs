@@ -4,8 +4,9 @@ import { discount, firstLiveImage, layout, SITE_URL } from './templates/layout.m
 import { home } from './templates/home.mjs';
 import { category as categoryPage, categoryJsonLd } from './templates/category.mjs';
 import { deal as dealPage } from './templates/deal.mjs';
+import { best as bestPage, bestJsonLd, selectBestDeals } from './templates/best.mjs';
 
-export const AFFILIATE_TAG = 'millerdealdes-20';
+export const AFFILIATE_TAG = 'tagfall-20';
 const root = process.cwd();
 const out = path.join(root, 'dist');
 const readJson = async (file) => JSON.parse(await readFile(path.join(root, file), 'utf8'));
@@ -26,6 +27,9 @@ for (const category of categories) {
   const categoryDeals = liveDeals.filter((deal) => deal.category === category.slug).sort((a, b) => a.pickRank - b.pickRank);
   await write(`c/${category.slug}/index.html`, layout({ title: category.title || `${category.name} deals — Tagfall`, description: category.description || `Hand-checked ${category.name.toLowerCase()} deals and clear buying tradeoffs.`, path: `/c/${category.slug}/`, body: categoryPage({ category, deals: categoryDeals, categories }), jsonLd: categoryJsonLd(category, categoryDeals), image: firstLiveImage(categoryDeals) }));
 }
+const bestDeals = selectBestDeals(liveDeals);
+const bestCurated = liveDeals.some((deal) => deal.best50 === true);
+await write('best/index.html', layout({ title: '50 Best Deals — Tagfall', description: 'The 50 best hand-checked price drops on Tagfall, ranked from live list cuts. We do not invent prices.', path: '/best/', body: bestPage({ deals: bestDeals, categories, curated: bestCurated }), jsonLd: bestJsonLd(bestDeals), image: firstLiveImage(bestDeals) }));
 for (const deal of deals) {
   const category = categories.find((item) => item.slug === deal.category);
   const related = liveDeals.filter((item) => item.category === deal.category && item.slug !== deal.slug).sort((a, b) => a.pickRank - b.pickRank).slice(0, 4);
@@ -49,6 +53,7 @@ const sitemapUrls = [
   sitemapUrl('/', latestLastmod(...liveDeals.map((deal) => deal.verifiedAt))),
   sitemapUrl('/about/', latestLastmod(...liveDeals.map((deal) => deal.verifiedAt))),
   sitemapUrl('/disclosure/', latestLastmod(...liveDeals.map((deal) => deal.verifiedAt))),
+  sitemapUrl('/best/', latestLastmod(...bestDeals.map((deal) => deal.verifiedAt))),
   ...categories.map((category) => sitemapUrl(`/c/${category.slug}/`, latestLastmod(...liveDeals.filter((deal) => deal.category === category.slug).map((deal) => deal.verifiedAt)))),
   ...liveDeals.map((deal) => sitemapUrl(`/deals/${deal.slug}/`, deal.verifiedAt)),
 ];

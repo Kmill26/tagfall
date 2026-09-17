@@ -34,5 +34,15 @@
     "description": "Hand-checked Halloween inflatable, string light, and yard décor deals — blow-up ghosts, porch lights, and outdoor décor with live prices.",
     "h1": "Halloween deals: inflatables, lights & yard décor",
     "intro": "This season’s Halloween yard inflatables, orange porch lights, and outdoor décor — checked by hand before you decorate."
+  },
+  {
+    "slug": "teachers",
+    "name": "Teachers",
+    "icon": "book",
+    "title": "Teacher Corner: classroom deals — Tagfall",
+    "description": "Hand-checked classroom and teacher deals — supplies, organization, and everyday classroom tools with live prices and skip-if notes.",
+    "h1": "Teacher Corner",
+    "intro": "Classroom supplies, teacher-desk tools, and restock staples — checked by hand so you see the live price and the tradeoffs before you buy.",
+    "empty": "Classroom deals coming — check back"
   }
 ]
